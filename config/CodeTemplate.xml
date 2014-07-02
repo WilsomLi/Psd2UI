@@ -1,0 +1,109 @@
+<root>
+	<wnd>
+package game
+{
+	import xengine.xinterface.xiui.XIBackground;
+	import xengine.xinterface.xiui.XIButton;
+	import xengine.xinterface.xiui.XIComboBox;
+	import xengine.xinterface.xiui.XIEdit;
+	import xengine.xinterface.xiui.XIEmptyCtrl;
+	import xengine.xinterface.xiui.XIImageCtrl;
+	import xengine.xinterface.xiui.XIListCtrl;
+	import xengine.xinterface.xiui.XIPaging;
+	import xengine.xinterface.xiui.XITreeCtrl;
+	import xengine.xinterface.xiui.XIWindow;
+	import xengine.xinterface.xiui.XUIWindow;
+	import xengine.xinterface.xiui.xconfig.XIContainerConfig;
+	
+	public class WndName extends XUIWindow
+	{
+		[declare]
+		
+		public function WndName()
+		{
+		}
+		
+		override public function Destroy():void
+		{
+			[destroy]
+			super.Destroy();
+		}
+		
+		override public function OnCreate(iwnd:XIWindow, param:Array=null):void
+		{
+			super.OnCreate(iwnd);
+			setFullScreen(false);
+			m_Wnd.setDragable(true);
+			initCtrl();
+			register();
+		}
+		
+		private function initCtrl():void
+		{
+			[initCtrl]
+		}
+		
+		private function register():void
+		{
+			//TODO:Register Proto and Event
+		}
+		
+		override protected function OnButtonClick(button:XIButton):void
+		{
+			switch(button.GetName()) {
+				[onBtnHandle]default:
+					break;
+			}
+		}
+	}
+}
+	</wnd>
+	<item>
+package game
+{
+	import xengine.xinterface.xiui.XCtrl;
+	import xengine.xinterface.xiui.XIBackground;
+	import xengine.xinterface.xiui.XIButton;
+	import xengine.xinterface.xiui.XIComboBox;
+	import xengine.xinterface.xiui.XIEdit;
+	import xengine.xinterface.xiui.XIEmptyCtrl;
+	import xengine.xinterface.xiui.XIImageCtrl;
+	import xengine.xinterface.xiui.XIListCtrl;
+	import xengine.xinterface.xiui.XIPaging;
+	import xengine.xinterface.xiui.XITreeCtrl;
+	import xengine.xinterface.xiui.xconfig.XIContainerConfig;
+	
+	public class ItemName extends XCtrl
+	{
+		[declare]
+		
+		public function ItemName()
+		{
+			super();
+		}
+		
+		override public function Destroy():void
+		{
+			[destroy]
+			super.Destroy();
+		}
+		
+		public function initCtrl(container:XIContainerConfig):void
+		{
+			[initCtrl]
+		}
+		
+		[btnHandle]
+	}
+}
+	</item>
+	<btnHandle>
+		private function OnButtonClick(button:XIButton):void
+		{
+			switch(button.GetName()) {
+				[onBtnHandle]default:
+					break;
+			}
+		}
+	</btnHandle>
+</root>

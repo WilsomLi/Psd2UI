@@ -1,0 +1,17 @@
+{type:'2',id:'0',name:'wnd',containerName:'',styles:'0',x:'',y:'',width:'',height:'',background:'client/gameuilib/img/wndtemplate/bg1.xsn',alignh:'4',alignv:'4'}
+{type:'3',id:'0',name:'btn',containerName:'',styles:'0',x:'',y:'',width:'',height:'',image:'',pack:'',repeattime:'0',checked:'false'}
+{type:'4',id:'0',name:'lis',containerName:'',styles:'0',x:'',y:'',width:'',height:'',itemwidth:'',itemheight:'',rowspace:'0',columnspace:'0',parallel:'1'}
+{type:'6',id:'0',name:'cob',containerName:'',styles:'0',x:'',y:'',width:'165',height:'68'}
+{type:'7',id:'0',name:'edt',containerName:'',styles:'64',x:'',y:'',width:'',height:'',align:'0'}
+{type:'8',id:'0',name:'img',containerName:'',styles:'0',x:'',y:'',width:'',height:'',image:'',pack:'',frame:'0',scalex:'1',scaley:'1',rotate:'0',alignv:'1',alignh:'0',loopDelay:'0.1'}
+{type:'9',id:'0',name:'bg',containerName:'',styles:'0',x:'',y:'',width:'',height:'',image:'img/wndtemplate/bg1.xsn',pack:'client/gameuilib'}
+{type:'11',id:'0',name:'emp',containerName:'',styles:'0',x:'',y:'',width:'',height:''}
+{type:'12',id:'0',name:'cls',containerName:'',styles:'0',x:'',y:'',width:'',height:'',refclass:''}
+{type:'16',id:'0',name:'ric',containerName:'',styles:'5',x:'',y:'',width:'',height:'',rowspace:'0'}
+{type:'17',id:'0',name:'con',containerName:'',styles:'0',x:'',y:'',width:'',height:''}
+{type:'18',id:'0',name:'pag',containerName:'',styles:'0',x:'',y:'',width:'77',height:'20',maxPage:'20',curremtPage:'1'}
+{type:'19',id:'0',name:'stp',containerName:'',styles:'0',x:'',y:'',width:'',height:'',maxPage:'99',curremtPage:'1'}
+{type:'100',name:'font',size:'12',bold:'false',border:'true',italic:'false',color:'16777215'}
+{type:'101',name:'normalfont',size:'12',bold:'false',border:'true',italic:'false',color:'16777215'}
+{type:'102',name:'downfont',size:'12',bold:'false',border:'true',italic:'false',color:'16777215'}
+{type:'103',name:'text',language:'true',CDATA	:''}
